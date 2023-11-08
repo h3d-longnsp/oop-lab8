@@ -43,6 +43,11 @@ public class Lists {
 
         insertBeginningEnd(newList, 90);
         System.out.println(newList);
+
+        reverse(myList);
+        System.out.println(myList);
+        reverseManual(myList);
+        System.out.println(myList);
     }
     public static void insertFirst(List<Integer> list, int value) {
         list.add(0, value);
