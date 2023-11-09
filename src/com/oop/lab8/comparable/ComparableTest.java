@@ -6,11 +6,11 @@ import java.util.List;
 
 public class ComparableTest {
     public static void main(String[] args) {
-        int[] intArray = new int[]{1, 10, 23, 313, 5, 7, 27, 14, 6};
-        System.out.println(Arrays.toString(intArray));
-
-        sort(intArray);
-        System.out.println(Arrays.toString(intArray));
+//        int[] intArray = new int[]{1, 10, 23, 313, 5, 7, 27, 14, 6};
+//        System.out.println(Arrays.toString(intArray));
+//
+//        sort(intArray);
+//        System.out.println(Arrays.toString(intArray));
 
         List<Movie> movies = new LinkedList<>();
         movies.add(new Movie("GOTG2", 7.5, 2023));

@@ -1,4 +1,4 @@
-package com.oop.lab8.comparable;
+package com.oop.lab8.comparator;
 
 public class Movie implements Comparable<Movie> {
     private String name;
