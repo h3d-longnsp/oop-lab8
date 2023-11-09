@@ -1,8 +1,9 @@
 package com.oop.lab8.sets;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
-import java.util.SortedSet;
 
 public class Sets {
     public static void main(String[] args) {
@@ -31,6 +32,9 @@ public class Sets {
         Set<Integer> union2 = union(firstSet, secondSet);
         System.out.println(union2);
 
+        List<Integer> newList = toList(firstSet);
+        System.out.println(newList);
+        System.out.println(newList.get(2));
     }
 
     // Return the intersection of two given sets without using library functions
@@ -76,5 +80,10 @@ public class Sets {
         union.addAll(secondSet);
 
         return union;
+    }
+
+    // function to transform a set into list
+    public static List<Integer> toList(Set<Integer> source) {
+        return new ArrayList<>(source);
     }
 }
